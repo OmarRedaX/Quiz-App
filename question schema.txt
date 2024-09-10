@@ -1,0 +1,87 @@
+[
+  {
+    "type": "boolean",
+    "difficulty": "easy",
+    "category": "Science &amp; Nature",
+    "question": "An Astronomical Unit is the distance between Earth and the Moon.",
+    "correct_answer": "False",
+    "incorrect_answers": [
+      "True"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Entertainment: Music",
+    "question": "What album did Bon Iver release in 2016?",
+    "correct_answer": "22, A Million",
+    "incorrect_answers": [
+      "Bon Iver, Bon Iver",
+      "Blood Bank EP",
+      "For Emma, Forever Ago"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Geography",
+    "question": "Which nation claims ownership of Antarctica?",
+    "correct_answer": "No one, but there are claims.",
+    "incorrect_answers": [
+      "United States of America",
+      "United Nations",
+      "Australia"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Entertainment: Film",
+    "question": "What name did Tom Hanks give to his volleyball companion in the film `Cast Away`?",
+    "correct_answer": "Wilson",
+    "incorrect_answers": [
+      "Friday",
+      "Jones",
+      "Billy"
+    ]
+  },
+  {
+    "type": "boolean",
+    "difficulty": "easy",
+    "category": "History",
+    "question": "United States President John F. Kennedy was assassinated during his presidential motorcade in Atlanta, Georgia on November 22nd, 1963.",
+    "correct_answer": "False",
+    "incorrect_answers": [
+      "True"
+    ]
+  }
+]
+
+
+display method
+   <div
+           class="question shadow-lg col-md-8 offset-md-2  p-4 rounded-3 d-flex flex-column justify-content-center align-items-center gap-3 animate__animated animate__bounceIn">
+           <div class="w-100 d-flex justify-content-between">
+           <span class="btn btn-category">category</span>
+           <span class="fs-6 btn btn-questions"> 1 of 5 Questions</span>
+           </div>
+           <h2 class="text-capitalize h4 text-center">question </h2>
+           <ul class="choices w-100 list-unstyled m-0 d-flex flex-wrap text-center">
+                 choices
+           </ul>
+           <h2 class="text-capitalize text-center score-color h3 fw-bold"><i class="bi bi-emoji-laughing"></i> Score: 0</h2>
+           </div>
+
+
+
+
+
+
+
+// final Result
+class="question shadow-lg col-lg-12  p-4 rounded-3 d-flex flex-column justify-content-center align-items-center gap-3">
+ <h2 class="mb-0 text-center">
+  ${logic}
+</h2>
+<button class="again btn btn-primary rounded-pill"><i class="bi bi-arrow-repeat"></i> Try Again</button>
+</div>
